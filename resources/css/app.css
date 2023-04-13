@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base{
+
+}
+@layer components{
+    .nav-item{
+        @apply p-2.5 hover:bg-blue-200 transition duration-300 rounded shadow-2xl
+    }
+}
+@layer utilities{
+
+}
